@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+
+}
+
+body{
+
+    background-color: beige;
+
+
+}
+
+p{
+    font-family: 'Gloria Hallelujah', cursive;
+  
+
+}
+
+.maincontainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.personascontainer{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+    text-align: start;
+}
+
+.rowcontainer{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    
+
+}
+
+.vilma-image{
+display: flex;
+max-width: 300px;
+flex-wrap: wrap;
+margin-inline-end: 400px;
+}
+
+
+.louis-image{
+    display: flex;
+    max-width: 300px;
+    flex-wrap: wrap;
+    margin-inline-end: 0px;
+    }

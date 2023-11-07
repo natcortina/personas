@@ -5,9 +5,13 @@ h1{
 
 }
 
+#intro{
+    text-align: center;
+}
+
 body{
 
-    background-color: beige;
+    background-color: rgb(245, 236, 220);
 
 
 }
@@ -55,3 +59,21 @@ margin-inline-end: 400px;
     flex-wrap: wrap;
     margin-inline-end: 0px;
     }
+
+    .sonia-image{
+        display: flex;
+        max-width: 300px;
+        flex-wrap: wrap;
+        margin-inline-end: 0px;
+        }
+
+
+button{
+    background: none;
+    border: none;
+}
+
+.hidden-text {
+    display: none;
+    cursor: pointer;
+  }
